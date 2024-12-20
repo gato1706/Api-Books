@@ -11,7 +11,9 @@ app.register(getBooks)
 app.register(updateBook)
 app.register(deleteBook)
 
-
+app.get('/', (req, res)=>{
+    return 'endpoint Home'
+})
 
 app.listen({
     host: '0.0.0.0.',
