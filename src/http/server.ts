@@ -14,6 +14,7 @@ app.register(deleteBook)
 
 
 app.listen({
+    host: '0.0.0.0.',
     port: 5432
 }).then(()=>{
     console.log('server is running...')
