@@ -12,7 +12,7 @@ app.register(updateBook)
 app.register(deleteBook)
 
 app.get('/', (req, res)=>{
-    return 'endpoint Home'
+    return res.send('endpoint home')
 })
 
 app.listen({
