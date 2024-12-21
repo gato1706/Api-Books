@@ -41,12 +41,14 @@ Este projeto contribuiu significativamente para o meu aprendizado em **TypeScrip
 - Rota: /books
 - Descrição: cadastre um novo livro no banco de dados
 - Vá no **Body** e Coloque o formato **JSON**  
-  A estrutura do corpo da requisição é assim:  
-   {  
-        === **"title":** "(título do livro",  
-        === **"author":** "(autor do livro)",  
-        === **"description":** "(descrição do livro)"    
-   }
+  A estrutura do corpo da requisição é assim:
+    
+  &nbsp;&nbsp;{  
+   &nbsp;&nbsp;&nbsp;&nbsp;"title": "(título do livro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"author": "(autor do livro)",  
+   &nbsp;&nbsp;&nbsp;&nbsp;"description": "(descrição do livro)"  
+  &nbsp;&nbsp;}
+
 
 
 
