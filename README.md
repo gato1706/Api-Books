@@ -23,7 +23,7 @@ Este projeto contribuiu significativamente para o meu aprendizado em **TypeScrip
 
 ## Endpoints:
 
-- Como a Api já esta no ar, utilize uma ferramenta de requisições como o Insomnia ou o Postman.
+### Como a Api já esta no ar, utilize uma ferramenta de teste de requisições como o **Insomnia** ou o **Postman**.
 
 ### Listar todos os livros
 - Método: **GET**
