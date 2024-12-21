@@ -1,6 +1,7 @@
 # Api REST Books
 ## Aplicação de CRUD de livros 
 ### Projeto desenvolvido com uma aula do @William Faria do canal William Faria | Dev
+##### Link da Aula: https://youtu.be/E6mZSJFozvM?si=Mbsupoc12Nqq-ymG
 
 ## Sobre o Projeto
 
@@ -39,7 +40,15 @@ Este projeto contribuiu significativamente para o meu aprendizado em **TypeScrip
 - Método: **POST**
 - Rota: /books
 - Descrição: cadastre um novo livro no banco de dados
+- Vá no **Body** e Coloque o formato **JSON**  
+  A estrutura do corpo da requisição é assim:  
+   {  
+        === **"title":** "(título do livro",  
+        === **"author":** "(autor do livro)",  
+        === **"description":** "(descrição do livro)"    
+   }
 
 
 
-### Link da Aula: https://youtu.be/E6mZSJFozvM?si=Mbsupoc12Nqq-ymG
+
+
